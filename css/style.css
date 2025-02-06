@@ -1,0 +1,330 @@
+/* Common Css Start */
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+    padding:0;
+    line-height: 0.8;
+}
+/* Common Css End */
+
+/* Navbar Part Css Start  */
+
+.nav-link{
+    margin-right: 20px;
+}
+
+.navbtn .btn{
+    background: #8454F5;
+}
+
+.navbtn .btn a{
+    color:#fff;
+}
+/* Navbar Part Css End */
+
+/* Banner Part Css Start  */
+#bannerPart{
+    padding:100px 0px 200px 0px;
+    background:url(../images/background.png) no-repeat;
+    background-position: center;
+    block-size: cover;
+}
+.bannerLeft img{
+    position:absolute;
+    left:-10%;
+}
+
+.bannerText img {
+    position: absolute;
+    top: 26%;
+    left: 35%;
+}
+.bannerText h1{
+    font-family: "Open Sans", serif;
+    font-size: 64px;
+    font-weight:800;
+    color:#1D354F;
+    margin-top: 80px;
+    padding-left: 30px;
+    line-height:80px;
+    padding-bottom:20px;
+}
+.bannerText p{
+    font-family: "Nunito", serif;
+    font-size:18;
+    font-weight:400;
+    color:#29313D;
+    padding-left: 30px;
+    line-height:20px;
+    padding-bottom:20px;
+}
+
+.bannerbtn{
+    background: #8454F5;
+    color:#fff;
+    position:absolute;
+    left:32%;
+}
+
+/* Banner Part Css End */
+/* Service Part Css Start  */
+#servicePart{
+    padding:30px 0px;
+}
+
+.serviceTop h4{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight:600;
+    color:#29313D;
+    text-align: center;
+    padding-bottom:50px;
+}
+.serviceInfo h4{
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    font-weight:600;
+    color:#29313D;
+    padding-top:20px;
+    padding-bottom:15px;
+}
+
+.serviceInfo p{
+    font-family: "Nunito", serif;
+    font-size:14px;
+    font-weight:400;
+    color:#29313D;
+    line-height: 150%;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+/* Service Part Css End */
+/* Launch Your App Part Css Start  */
+#launchappPart{
+    padding:50px 0px;
+}
+
+.launchImg{
+    width:540px;
+    position:relative;
+}
+.launchtopImg img {
+    position: absolute;
+    top: -36px;
+    left: 19%;
+}
+
+.launchText{
+    padding-left:100px;
+    padding-top:20px;
+}
+
+.launchText h4{
+    font-family: "Poppins", serif;
+    font-size:42px;
+    font-weight:600;
+    color:#29313D;
+    line-height: 140%;
+    padding-bottom: 20px;
+}
+
+.launchText p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    color:#29313D;
+    line-height: 200%;
+    margin-bottom:40px;
+}
+
+.launchapprightbottomOne h4{
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    font-weight:600;
+    color:#29313D;
+    padding-top:20px;
+    padding-bottom:15px;
+}
+
+.launchapprightbottomOne p{
+    font-family: "Nunito", serif;
+    font-size:14px;
+    font-weight:400;
+    color:#29313D;
+    line-height: 150%;
+}
+/* Launch Your App Part Css End */
+/* Creative Apps Part Css Start  */
+#creativeappPart{
+    padding:80px 0px;
+}
+
+.creativeappsTop{
+    text-align: center;
+}
+
+.creativeappsTop h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight:600;
+    color:#29313D;
+    padding-bottom: 20px;
+}
+
+.creativeappsTop p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 200%;
+    color:#29313D;
+}
+
+.creativeappimg img{
+   width:330px;
+}
+/* Creative Apps Part Css End */
+
+/* Partner Part Css End */
+#partnerPart{
+    padding:30px 0px;
+}
+
+.partnerText h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight:600;
+    color:#29313D;
+    text-transform: capitalize;
+    line-height: 104%;
+}
+
+.partnerbtn{
+   padding:30px 0px;
+   
+}
+.partnerbtn .btn{
+    padding:20px 50px;
+    background:#6A55EA;
+    color:#fff;
+    position: absolute;
+    right:23%;
+}
+.partnerbtn .btn a{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    color:#fff;
+}
+.partnerBottom{
+    padding-top:40px;
+    margin-right: 40px;
+}
+.partnerImg{
+    display:inline-block;
+}
+.partnerImg img{
+    padding:30px 50px;
+    background:#F3F7FD;
+}
+
+/* Partner Part Css End */
+
+/* Trail Part Css Start */
+#trailPart{
+    padding:40px 0px;
+}
+.trailTop{
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.trailTop h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight:600;
+    color:#29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+    margin-bottom:20px;
+}
+
+.trailTop p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 200%;
+    color:#29313D;
+    padding-bottom: 50px;
+}
+
+.trailmiddle{
+    padding-top:30px;
+    padding-bottom: 30px;
+    display: inline;
+}
+
+.trailmiddleheading h4{
+    font-family: "Poppins", serif;
+    font-size:20px;
+    font-weight:500;
+    color:#29313D;
+    text-align: center;
+    margin-bottom:48px;
+    position:relative;
+}
+
+.trailmiddleheading h4:after {
+    position: absolute;
+    content: '';
+    width: 59px;
+    height: 6px;
+    bottom: -19px;
+    left: 119px;
+    background: #6A55EA;
+}
+
+.trailmiddlepricing{
+    display: inline;
+}
+
+.trailmiddleheading h6 {
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #29313D;
+    display: inline-block;
+    margin-right:30px;
+    margin-top: 20px;
+}
+
+.trailmidbtn {
+    padding: 10px 15px;
+    background: #6A55EA;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+
+.trailmidbtn a{
+    color:#fff;
+
+}
+
+/* Trail Part Css Start */
