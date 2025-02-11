@@ -25,8 +25,25 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* Navbar Part Css Start  */
 
+.navbar{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
 .nav-link{
     margin-right: 20px;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:#29313D;
+    transition:all 0.5s ease;
+}
+
+.nav-link:hover{
+    color:#8454F5
 }
 
 .navbtn .btn{
@@ -36,51 +53,40 @@ h1, h2, h3, h4, h5, h6, p{
 .navbtn .btn a{
     color:#fff;
 }
+
+.navbtn .btn:hover{
+    background: #29313D;
+    color:#fff;
+}
 /* Navbar Part Css End */
 
 /* Banner Part Css Start  */
 #bannerPart{
-    padding:100px 0px 200px 0px;
-    background:url(../images/background.png) no-repeat;
+    padding:275px 0px 250px 0px;
+    background:url(../images/bannerbg.jpg) no-repeat;
     background-position: center;
-    block-size: cover;
-}
-.bannerLeft img{
-    position:absolute;
-    left:-10%;
+    background-size: cover;
 }
 
-.bannerText img {
-    position: absolute;
-    top: 26%;
-    left: 35%;
-}
 .bannerText h1{
     font-family: "Open Sans", serif;
-    font-size: 64px;
-    font-weight:800;
+    font-size:64px;
+    font-weight: 800;
     color:#1D354F;
-    margin-top: 80px;
-    padding-left: 30px;
-    line-height:80px;
-    padding-bottom:20px;
-}
-.bannerText p{
-    font-family: "Nunito", serif;
-    font-size:18;
-    font-weight:400;
-    color:#29313D;
-    padding-left: 30px;
-    line-height:20px;
-    padding-bottom:20px;
+    line-height:70px;
+    padding-bottom: 20px;
 }
 
-.bannerbtn{
-    background: #8454F5;
-    color:#fff;
-    position:absolute;
-    left:32%;
+.bannerText p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    color:#1D354F;
+    line-height: 200%;
+    padding-right:40px;
+    margin-bottom: 40px;
 }
+
 
 /* Banner Part Css End */
 /* Service Part Css Start  */
@@ -118,11 +124,10 @@ h1, h2, h3, h4, h5, h6, p{
 /* Service Part Css End */
 /* Launch Your App Part Css Start  */
 #launchappPart{
-    padding:50px 0px;
+    padding:100px 0px;
 }
-
 .launchImg{
-    width:540px;
+    width:500px;
     position:relative;
 }
 .launchtopImg img {
@@ -132,14 +137,14 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .launchText{
-    padding-left:100px;
+    padding-left:160px;
     padding-top:20px;
 }
 
 .launchText h4{
     font-family: "Poppins", serif;
-    font-size:42px;
-    font-weight:600;
+    font-size:30px;
+    font-weight:500;
     color:#29313D;
     line-height: 140%;
     padding-bottom: 20px;
@@ -171,6 +176,51 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 150%;
 }
 /* Launch Your App Part Css End */
+/* Brows Part start */
+#browsPart{
+    padding:60px 0px;
+}
+.browsText{
+    padding-top:20px;
+}
+.browsText h4{
+    font-family: "Poppins", serif;
+    font-size:28px;
+    font-weight:500;
+    color:#29313D;
+    line-height: 140%;
+    padding-bottom: 20px;
+}
+
+.browsText p{
+    font-family: "Nunito", serif;
+    font-size:16px;
+    font-weight:400;
+    color:#29313D;
+    line-height: 200%;
+    margin-bottom:40px;
+}
+
+.browsrightbottomOne h4{
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    font-weight:600;
+    color:#29313D;
+    padding-top:20px;
+    padding-bottom:15px;
+}
+
+.browsrightbottomOne p{
+    font-family: "Nunito", serif;
+    font-size:14px;
+    font-weight:400;
+    color:#29313D;
+    line-height: 150%;
+    padding-right:0px;
+}
+
+/* Brows Part End */
+
 /* Creative Apps Part Css Start  */
 #creativeappPart{
     padding:80px 0px;
@@ -199,6 +249,11 @@ h1, h2, h3, h4, h5, h6, p{
 .creativeappimg img{
    width:330px;
 }
+
+.creativeappimg img{
+    width:100%;
+}
+
 /* Creative Apps Part Css End */
 
 /* Partner Part Css End */
@@ -219,30 +274,31 @@ h1, h2, h3, h4, h5, h6, p{
    padding:30px 0px;
    
 }
-.partnerbtn .btn{
-    padding:20px 50px;
-    background:#6A55EA;
-    color:#fff;
+.partnerbtn .btn {
+    padding: 10px 20px;
+    background: #6A55EA;
+    color: #fff;
     position: absolute;
-    right:23%;
+    right: 9%;
 }
 .partnerbtn .btn a{
     font-family: "Nunito", serif;
-    font-size:18px;
+    font-size:16px;
     font-weight:400;
+    color:#fff;
+    transition: all 0.5s ease;
+}
+
+.partnerbtn .btn:hover{
+    background: #29313D;
     color:#fff;
 }
 .partnerBottom{
     padding-top:40px;
-    margin-right: 40px;
+    display:flex;
+    justify-content: space-between;
 }
-.partnerImg{
-    display:inline-block;
-}
-.partnerImg img{
-    padding:30px 50px;
-    background:#F3F7FD;
-}
+
 
 /* Partner Part Css End */
 
@@ -279,31 +335,32 @@ h1, h2, h3, h4, h5, h6, p{
     padding-bottom: 30px;
     display: inline;
 }
-
 .trailmiddleheading h4{
     font-family: "Poppins", serif;
     font-size:20px;
     font-weight:500;
     color:#29313D;
     text-align: center;
-    margin-bottom:48px;
+    margin-bottom:22px;
     position:relative;
+    transition:all 0.5s ease;
 }
 
+.trailmiddleheading h4:hover{
+    color:#8454F5;
+}
 .trailmiddleheading h4:after {
     position: absolute;
     content: '';
-    width: 59px;
+    width: 95px;
     height: 6px;
     bottom: -19px;
-    left: 119px;
+    left: 103px;
     background: #6A55EA;
 }
-
 .trailmiddlepricing{
     display: inline;
 }
-
 .trailmiddleheading h6 {
     font-family: "Poppins", serif;
     font-size: 48px;
@@ -313,6 +370,11 @@ h1, h2, h3, h4, h5, h6, p{
     display: inline-block;
     margin-right:30px;
     margin-top: 20px;
+    transition:all 0.5s ease;
+}
+
+.trailmiddleheading h6:hover{
+    color:#6A55EA;
 }
 
 .trailmidbtn {
@@ -320,11 +382,291 @@ h1, h2, h3, h4, h5, h6, p{
     background: #6A55EA;
     margin-top: -20px;
     border-radius: 10px;
+    transition:all 0.5s ease;
 }
 
+.trailmidbtn:hover{
+    background: #29313D;
+    color:#fff;
+}
 .trailmidbtn a{
     color:#fff;
-
 }
 
+.trialBottom{
+    padding:30px 0px;
+}
+.trialbottomItems p{
+    font-family: "Nunito", serif;
+    font-size:16px;
+    font-weight:500;
+    line-height: 200%;
+}
+.trialbottomItems p span{
+    margin-right:5px;
+}
 /* Trail Part Css Start */
+/* Recent Post Part Start */
+#recentPost{
+    padding:20px 0px;
+}
+.recentpostLeft h3 {
+    font-family: "Poppins", serif;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #29313D;
+}
+.recentpostRight{
+    display:inline-flex;
+    padding-top:18px;
+}
+.recentpostRight h4 {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #29313D;
+    padding-right: 12px;
+    padding-top:12px;
+}
+
+.recentpostRighticon{
+    margin-right:60px;
+}
+
+.recentpostRighticon a{
+    font-size: 15px;
+    color:#29313D;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:rgba(106, 85, 234, .10);
+    position:relative;
+}
+
+.recentpostRighticon a i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    transition: 0.5s ease;
+}
+.recentpostRighticon a:hover{
+    background:rgb(106, 85, 234);
+    color:#fff;
+}
+/* Recent Post Part Css End */
+/* Booming Part Css Start */
+#boomingPart{
+    padding:20px 0px 50px 0px;
+}
+.boomingTop{
+    margin-bottom:20px;
+}
+.boomingLeft img{
+    width:100%;
+}
+.boomingbottomBtn{
+    margin-top: 26px;
+    padding:10px 28px;
+    background:#6A55EA;
+    border-radius: 15px;
+    transition:all 0.5s ease;    
+}
+.boomingbottomBtn:hover{
+    background:#29313D;
+    color:#fff;
+}
+.boomingbottomBtn a{
+    color:#fff;
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+}
+.boomingMiddle h4{
+    font-family: "Poppins", serif;
+    font-size:24px;
+    font-weight:500;
+    line-height: 140%;
+    color: #29313D;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.boomingmiddleimage{
+    display:inline-flex;
+    margin-bottom: 15px;
+}
+.boomingmiddleimage img{
+    padding-right:10px;
+}
+
+.boomingmiddleimageText{
+    padding-top:8px;
+    color: #29313D;
+}
+.boomingmiddleimageText h6{
+    font-family: "Poppins", serif;
+    font-size:28px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.boomingmiddleimageText p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 80%;
+}
+.boomingMiddle p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 120%;
+    color: #29313D;
+}
+.boomingRight{
+    position:relative;
+}
+
+.boomingRight:before{
+    position:absolute;
+    content:'';
+    width:300px;
+    height:3px;
+    top:-4px;
+    left:0;
+    background:#29313D;
+}
+
+.boomingRight a{
+    font-family: "Poppins", serif;
+    font-size:28px;
+    font-weight:400;
+    line-height:160%;
+    color: #29313D;
+}
+.boomingRight a i{
+    padding-right:10px;
+
+}
+.boomingRightimg{
+    margin-top: 30px;
+}
+
+.boomingRightimg{
+    display:flex;
+    justify-content: space-between;
+}
+.boomingRightimg img{
+    width:140px;
+}
+
+.boomingBottom .boomingRightimg{
+    margin-top:0px;
+}
+
+.boomingBottom .boomingMiddle p{
+    text-transform: capitalize;
+    font-size:16px;
+}
+
+.boomingBottom .boomingMiddle h4{
+    padding-right:10px;
+}
+/* Booming Part Css End */
+/* Start Your Project Part Css Start */
+#startprojectPart{
+    padding:20px 0px;
+}
+
+.startprojectbg{
+    background:#6A55EA;
+    padding: 130px 0px;
+    border-radius:80px;
+}
+
+.startprojecttext h4{
+    font-family: "Poppins", serif;
+    font-size:50px;
+    font-weight:500;
+    line-height:140%;
+    color:#FDFDFD;
+}
+
+.startprojectbtn{
+    margin-top:30px;
+}
+
+.startprojectbtn .btn{
+    padding:10px 28px;
+    background:#F8FDFE;
+    border-radius: 15px;
+    transition:all 0.5s ease;  
+}
+.startprojectbtn a{
+    color:#6A55EA;
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+}
+.startprojectbtn a:hover{
+    color: #29313D;
+}
+
+/* Start Your Project Part Css End */
+/* Footer Part Css Start */
+#footerToppart{
+    padding:50px 0px 20px 0px;
+}
+
+.footertopLeft p{
+    padding-top:30px;
+    font-family: "Nunito", serif;
+    font-size:14px;
+    font-weight:400;
+    line-height: 180%;
+    color: #29313D;
+    text-transform: capitalize;
+}
+
+.footertopitems h4{
+    font-family: "Open Sans", serif;
+    font-size:20px;
+    font-weight:600;
+    line-height: 140%;
+    color: #29313D;
+    text-transform: capitalize;
+    margin-top:20px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+.footertopitems ul li a{
+    font-family:"Nunito", serif;
+    font-size:12px;
+    font-weight:400;
+    color: #29313D;
+    padding-bottom:16px;
+    text-align: start;
+}
+.footerbottomLeft h6{
+    font-family:"Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    color: #29313D;
+    text-align: start;
+}
+
+.footerbottomRight p{
+    font-family:"Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    color: #29313D;
+}
+.footerbottomRight p span{
+    padding-left:20px;
+}
+
+/* Footer Part Css End */
