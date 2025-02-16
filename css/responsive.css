@@ -1,0 +1,437 @@
+
+/* Responsive bootstrap 4.6 (breakpoint min and max break point) */
+
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+
+}
+
+
+/* Large devices */
+@media (min-width:992px) and (max-width:1199.98px){
+
+}
+
+
+
+/* Medium devices */
+@media (min-width:768px) and (max-width:991.98px){
+
+	.navbar-toggler i{
+		color:#8454F5;
+		
+	}
+	.navbar>.container{
+		justify-content: space-between;
+	}
+	
+	.navbar-nav>.nav-item, .navbtn{
+		text-align: center;
+	}
+
+	.serviceInfo h4 {
+		font-size: 17px;
+	}
+
+	.launchbottomImg img{
+		max-width: 75%;
+	}
+
+	.launchtopImg img {
+		left: 16%;
+		height: 100%;
+	}
+
+	.launchText h4 {
+		font-size: 20px;
+		line-height: 127%;
+		padding-bottom: 11px;
+	}
+	.launchText p {
+		font-size: 15px;
+		line-height: 162%;
+		margin-bottom: 19px;
+	}
+	#browsPart {
+		padding: 8px 0px;
+	}
+	.browsText h4 {
+		font-size: 22px;
+		line-height: 100%;
+		padding-bottom: 12px;
+	}
+
+	.browsText p {
+		font-size: 14px;
+		line-height: 173%;
+		margin-bottom: 31px;
+	}
+	.trailmiddleheading h4::after {
+		left: 62px;
+	}
+
+	.trailmiddleheading h6 {
+		font-size: 33px;
+		margin-right: 4px;
+	}
+	.trialbottomItems p {
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 197%;
+	}
+
+	.boomingMiddle h4 {
+		font-size: 17px;
+		line-height: 133%;
+		margin-bottom: 7px;
+	}
+
+	.boomingMiddle p {
+		font-size: 13px;
+		line-height: 112%;
+	}
+	.boomingmiddleimageText h6 {
+		font-size: 16px;
+	}
+
+	.boomingRight a {
+		font-size: 21px;
+		line-height: 127%;
+	}
+	.boomingRightimg img {
+		margin-right: 30px;
+	}
+	.boomingRightimg {
+		margin-top: 7px;
+	}
+	.boomingBottom .boomingMiddle p {
+		font-size: 11px;
+	}
+	.startprojecttext h4 {
+		padding-left: 37px;
+	}
+}
+
+
+
+/* Small devices */
+@media (min-width:576px) and (max-width:767.98px){
+	.navbar-toggler i{
+		color:#8454F5;
+		
+	}
+	.navbar>.container{
+		justify-content: space-between;
+	}
+	
+	.navbar-nav>.nav-item, .navbtn{
+		text-align: center;
+	}
+
+	#bannerPart {
+		padding: 149px 0px 80px 0px;
+	}
+	.bannerText h1 {
+		font-size: 30px;
+		line-height: 0px;
+		text-align: center;
+		padding: 53px;
+		margin-right: 37px;
+	}
+	.bannerText p {
+		font-size: 16px;
+		line-height: 155%;
+		padding-right: 119px;
+		padding-left: 30px;
+		text-align: center;
+	}
+	.serviceTop h4 {
+		font-size: 43px;
+		padding-bottom: 20px;
+	}
+	.serviceInfo{
+		text-align: center;
+	}
+	
+	.serviceInfo h6 {
+		margin-bottom: 113px;
+	}
+	.launchText {
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.launchapprightbottomOne h6{
+		margin-bottom:30px;
+	}
+	
+	#launchappPart {
+		padding: 0px 0px;
+	}
+	.browsText {
+		text-align: center;
+	}
+	.browsText h4 {
+		font-size: 24px;
+		padding-bottom: 7px;
+	}
+	
+	.browsText p {
+		line-height: 178%;
+		margin-bottom: 22px;
+	}
+	.browsrightbottomOne h6{
+		margin-bottom:127px;
+	}
+	#creativeappPart {
+		padding: 27px 0px;
+	}
+	.creativeappsTop h4 {
+		font-size: 42px;
+	}
+
+	#partnerPart {
+		padding: 134px 0px;
+	}
+	#trailPart {
+		padding: 0px 0px;
+	}
+	
+	.launchImg {
+		width: 470px;
+		margin: 0 auto;
+	}
+	
+	.launchtopImg img {
+		top: -101px;
+		left: 21%;
+	}
+	
+	.partnerText h4 {
+		font-size: 33px;
+		text-align: center;
+	}
+	
+	.trailmiddleheading h4::after {
+		left: 210px;
+	}
+	.trailmiddleheading h6 {
+		font-size:43px;
+		margin-right: 51%;
+	}
+		
+	.trialbottomItems p {
+		text-align: left;
+		font-size:12px;
+	}
+	
+	.recentpostLeft h3 {
+		text-align: center;
+	}
+	.recentpostRight {
+		padding-left: 30%;
+	}
+	
+	.boomingMiddle h4 {
+		margin-bottom: 4px;
+		text-align: center;
+		margin-top: 0px;
+	}
+	
+	.boomingMiddle p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.boomingRight::before {
+		width: 194px;
+		top: 40px;
+	}
+	
+	.boomingRightimg {
+		justify-content: space-around;
+	}
+	.boomingbottomBtn {
+		margin-top: 56px;
+		margin-bottom: 30px;
+	}
+	
+	.startprojecttext h4 {
+		font-size:37px;
+		text-align: center;
+	}
+	
+	.footertopLeft p {
+		text-align: left;
+		font-size: 12px;
+	}
+	.footerbottomLeft h6 {
+		text-align: left;
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	.footerbottomRight p {
+		text-align: right;
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	
+	.creativeappimg{
+		margin-bottom:-196px;
+	}
+}
+
+/* Extra small devices */
+@media(min-width:320px) and (max-width:575.98px){
+
+.navbar-toggler i{
+    color:#8454F5;
+}
+
+.navbar>.container{
+	justify-content: space-around;
+}
+
+.navbar-nav>.nav-item, .navbtn{
+    text-align: center;
+}
+#bannerPart {
+	padding: 140px 0px 70px 0px;
+}
+.bannerText h1 {
+	font-size: 30px;
+	line-height: 0px;
+	text-align: center;
+	padding: 53px;
+	margin-right: 37px;
+}
+.bannerText p {
+	font-size: 16px;
+	line-height: 155%;
+	padding-right: 119px;
+	padding-left: 30px;
+    text-align: center;
+}
+.serviceTop h4 {
+	font-size: 43px;
+	padding-bottom: 20px;
+}
+.serviceInfo{
+    text-align: center;
+}
+
+.serviceInfo h6{
+    margin-bottom:30px;
+}
+
+.launchText {
+	padding: 20px;
+	text-align: center;
+}
+
+.launchapprightbottomOne h6{
+    margin-bottom:30px;
+}
+
+#launchappPart {
+	padding: 0px 0px;
+}
+.browsText {
+	text-align: center;
+}
+.browsText h4 {
+	font-size: 24px;
+	padding-bottom: 7px;
+}
+
+.browsText p {
+	line-height: 178%;
+	margin-bottom: 22px;
+}
+.browsrightbottomOne h6{
+    margin-bottom:30px;
+}
+
+.launchImg {
+	width: 470px;
+	margin: 0 auto;
+}
+
+.launchtopImg img {
+	top: -21px;
+	left: 21%;
+	height: 98%;
+}
+
+.partnerText h4 {
+	font-size: 33px;
+	text-align: center;
+}
+
+.trailmiddleheading h4::after {
+	left: 228px;
+}
+
+.trailmiddleheading h6 {
+	margin-right: 19%;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+
+.trialbottomItems p {
+	text-align: center;
+}
+
+.recentpostLeft h3 {
+	text-align: center;
+}
+
+.boomingMiddle h4 {
+	margin-bottom: 40px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.boomingMiddle p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.boomingmiddleimage{
+	margin-left:32%;
+}
+.boomingRight{
+	text-align: center;
+}
+.boomingRight::before {
+	width: 194px;
+	top: 40px;
+	left: 32%;
+}
+
+.boomingRightimg {
+	justify-content: space-around;
+}
+
+.startprojecttext h4 {
+	font-size: 34px;
+}
+
+.footertopLeft p{
+	text-align: center;
+}
+
+.footerbottomLeft h6 {
+	text-align: center;
+	margin-bottom: 16px;
+}
+.footerbottomRight p {
+	text-align: center;
+}
+
+.creativeappimg img{
+	margin-bottom:-130px;
+}
+
+
+
+}
