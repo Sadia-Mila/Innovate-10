@@ -282,7 +282,7 @@
 }
 
 /* Extra small devices */
-@media(min-width:320px) and (max-width:575.98px){
+@media (min-width:320px) and (max-width:575.98px){
 
 .navbar-toggler i{
     color:#8454F5;
@@ -296,28 +296,30 @@
     text-align: center;
 }
 #bannerPart {
-	padding: 140px 0px 70px 0px;
+	padding: 140px 0px 50px 0px;
 }
 .bannerText h1 {
-	font-size: 30px;
-	line-height: 0px;
+	font-size: 35px;
 	text-align: center;
-	padding: 53px;
-	margin-right: 37px;
+	padding: 7px;
+	margin-right: 0px;
+	line-height: 34px;
+	margin-bottom: 20px;
 }
 .bannerText p {
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 155%;
-	padding-right: 119px;
-	padding-left: 30px;
-    text-align: center;
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: center;
 }
 .serviceTop h4 {
 	font-size: 43px;
 	padding-bottom: 20px;
 }
+
 .serviceInfo{
-    text-align: center;
+    text-align:center;
 }
 
 .serviceInfo h6{
@@ -329,27 +331,16 @@
 	text-align: center;
 }
 
+
 .launchapprightbottomOne h6{
     margin-bottom:30px;
 }
-
+.launchapprightbottomOne h4 {
+	font-size: 18px;
+	padding-bottom: 13px;
+}
 #launchappPart {
 	padding: 0px 0px;
-}
-.browsText {
-	text-align: center;
-}
-.browsText h4 {
-	font-size: 24px;
-	padding-bottom: 7px;
-}
-
-.browsText p {
-	line-height: 178%;
-	margin-bottom: 22px;
-}
-.browsrightbottomOne h6{
-    margin-bottom:30px;
 }
 
 .launchImg {
@@ -362,22 +353,70 @@
 	left: 21%;
 	height: 98%;
 }
+.browsText {
+	text-align: center;
+}
+.browsText h4 {
+	font-size: 21px;
+	padding-bottom: 3px;
+}
+
+.launchText p {
+	font-size: 16px;
+	line-height: 162%;
+	margin-bottom: 24px;
+}
+
+#browsPart {
+	padding: 0px;
+}
+.browsrightbottomOne h6{
+    margin-bottom:30px;
+}
+
+.browsText p {
+	line-height: 167%;
+	margin-bottom: 34px;
+}
+
+.creativeappsTop h4 {
+	font-size: 37px;
+	padding-bottom: 17px;
+}
+
+.creativeappsTop p {
+	font-size: 16px;
+	line-height: 167%;
+}
 
 .partnerText h4 {
-	font-size: 33px;
+	font-size: 31px;
 	text-align: center;
+}
+.trailTop h4 {
+	font-size: 34px;
+	line-height: 132%;
+}
+.trailTop p {
+	font-size: 16px;
+	line-height: 153%;
+	padding-bottom: 15px;
+}
+
+.trailmiddleheading h4 {
+	margin-top: 20px;
 }
 
 .trailmiddleheading h4::after {
-	left: 228px;
+	left: 102px;
 }
 
 .trailmiddleheading h6 {
-	margin-right: 19%;
-	margin-top: 30px;
-	margin-left: 20%;
+	font-size: 30px;
+	line-height: 139%;
+	margin-right: 81px;
+	margin-top: 31px;
 }
-
 .trialbottomItems p {
 	text-align: center;
 }
